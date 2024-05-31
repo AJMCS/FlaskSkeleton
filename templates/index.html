@@ -1,43 +1,76 @@
 {% extends 'base.html' %}
 
 {% block body %}
-  <div class="flex flex-col bg-blue-700 w-full py-8 px-24">
+  <div class="flex flex-col bg-cover bg-center w-full py-8 px-24" style="background-image: url(https://i.pinimg.com/originals/f1/de/9d/f1de9ddeff5e3e252a333be6a8c519d4.jpg)">
     <div class="flex justify-between">
-      <h1 class="text-lg font-bold text-white text-lg font-bolds uppercase">MilkInside</h1>
-      <div class="flex gap-8 text-white text-lg font-bold uppercase">
-        <p>Service</p>
-        <p>Work</p>
-        <p>About</p>
-        <p>Contact</p>
+      <h1 class="text-lg font-bold text-white text-lg uppercase bg-black/25">MilkInside</h1>
+      <div class="flex gap-24 text-white text-lg font-bold uppercase">
+        <p class="bg-black/15">Service</p>
+        <p class="bg-black/15">Work</p>
+        <p class="bg-black/15">About</p>
+        <p class="bg-black/15">Contact</p>
+      </div>
+    </div>
+    <div class="flex flex-col h-1/3"></div>
+    <div class="flex flex-col h-1/3 text-white items-center">
+      <div class=>
+        <div class="flex flex-col gap-3">
+          <p class="uppercase text-sm font-bold">since 2011</p>
+          <p class="text-white font-bold text-6xl">World-changing products often start as the faintest of ideas</p>
+        </div>
+        <div class="flex flex-col">
+          <div class="flex flex-row">
+            <p class="text-black bg-white font-bold text-lg px-3">explore</p>
+          </div>
+        </div>
+        <div class="flex flex-col bg-stone-800/70 items-center h-4/5 backdrop-blur">
+          <div class="flex flex-row text-white text-sm">
+            <div class="flex justify-between p-4">
+              <div class="flex flex-col gap-5">
+                <p class="uppercase text-gray-200/80 py-3 px-3">5 august 2019</p>
+                <p class="text-white text-sm text-wrap px-3">Hiring Visual Designers</p>
+              </div>
+              <div class="w-0 h-4/5 border-white border-solid"></div>
+              <div class="flex flex-col gap-5">
+                <p class="uppercase text-gray-200/80 py-3">3 october 2019</p>
+                <p class="text-white text-sm">Hiring Product Strategist</p>
+              </div>
+              <div class="flex flex-col gap-5">
+                <p class="uppercase text-gray-200/80 py-3">3 october 2022</p>
+                <p class="text-white text-sm">Milkinside become agency of year</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  
 
-  <div class="flex flex-col w-72 bg-gray-100 p-8">
+  <div class="flex flex-col w-72 bg-gray-100 p-8 font-semibold">
     <div class="flex flex-col">
-      <p>OPPO Future Designof OS Design</p>
+      <p>OPPO Future Design of OS Design</p>
+    </div>
+    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <div class="flex flex-col">
       <p>Google shopping TV app concept</p>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
     <div class="flex flex-col">
-      <p>OPPO Future Designof OS Design</p>
-      <p>Google shopping TV app concept</p>
+      <p>Seres EV HMI product design</p>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
     <div class="flex flex-col">
-      <p>OPPO Future Designof OS Design</p>
-      <p>Google shopping TV app concept</p>
+      <p>Pryon enterprise software</p>
     </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
     <div class="flex flex-col">
-      <p>OPPO Future Designof OS Design</p>
-      <p>Google shopping TV app concept</p>
-    </div>
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-    <div class="flex flex-col">
-      <p>OPPO Future Designof OS Design</p>
-      <p>Google shopping TV app concept</p>
+      <p>Future of Funtech conceptual design</p>
     </div>
   </div>
-  <div class="flex flex-col w-72 bg-green-700"></div>
+  <div class="flex flex-col w-72 bg-cover bg-center items-end py-5 px-6" style="background-image: url(https://images.unsplash.com/photo-1543233604-3baca4d35513?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwY3VwfGVufDB8fDB8fHww)">
+    <div class="flex gap-3 ">
+      <p class="text-white uppercase text-lg bg-black/60">Menu</p>
+    </div>
+  </div>
 {% endblock %}
